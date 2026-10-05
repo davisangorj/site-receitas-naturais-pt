@@ -15,7 +15,7 @@ netlify/functions/stripe-webhook.mjs → envia o e-mail com o link de download a
 ## Edições comuns (em `index.html`)
 
 - **Link do checkout:** os 5 botões com `data-cta` apontam para o link do Stripe (busque por `buy.stripe.com`).
-- **Preço:** busque `R$ 39,90` (preço atual, 4 lugares), `R$ 99,90` (preço antigo) e `−60%` (selo).
+- **Preço:** busque `R$ 19,90` (preço atual, 4 lugares), `R$ 99,90` (preço antigo) e `−80%` (selo).
 - **Textos:** é só procurar a frase e editar.
 - **Cores:** variáveis no topo de `assets/style.css` (`--green`, `--terra`, `--canvas`…).
 - **Pixel do Meta / Google Tag:** cole no `<head>` do `index.html`. Os botões de compra já disparam `InitiateCheckout` / `begin_checkout`.
