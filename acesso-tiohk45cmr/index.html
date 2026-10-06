@@ -4,75 +4,113 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Seu acesso · 50 Receitas Naturais que Funcionam de Verdade</title>
+<title>Seus 2 livros · Download</title>
 <meta name="theme-color" content="#2F4A3A">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%232F4A3A'/%3E%3Cpath d='M16 25V8M16 12c-3-1-5-3-5-5 3 0 5 2 5 5zm0 5c3-1 5-3 5-5-3 0-5 2-5 5zm0 4c-3-1-5-3-5-5 3 0 5 2 5 5z' stroke='%23F0E0C2' stroke-width='1.4' fill='none'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-  .access { padding: clamp(40px, 7vw, 88px) 0 var(--sec); }
-  .access-in { display: grid; grid-template-columns: .8fr 1.2fr; gap: 64px; align-items: center; }
-  .access .book { width: min(320px, 80%); margin: 0 auto; }
-  .ok { display: inline-flex; align-items: center; gap: 10px; font: 500 12px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--green); background: var(--sage); padding: 9px 12px; border-radius: 40px; margin-bottom: 22px; }
-  .ok::before { content: "✓"; font-size: 13px; }
-  .dl { margin: 32px 0 10px; }
-  .dl-meta { font: 400 12px/1.4 var(--mono); color: var(--faint); letter-spacing: .04em; }
-  .tips { margin-top: 40px; border-top: 1px solid var(--hair); }
-  .tips li { display: grid; grid-template-columns: 34px 1fr; padding: 16px 0; border-bottom: 1px solid var(--hair); font-size: 15.5px; color: var(--muted); }
-  .tips li b { display: block; color: var(--ink); font-weight: 500; margin-bottom: 2px; }
-  .tips li::before { content: attr(data-n); font: 400 15px/1.5 var(--serif); color: var(--terra); }
-  .start { background: var(--linen); }
-  .start .chapters { margin-top: 8px; }
-  @media (max-width: 860px) { .access-in { grid-template-columns: 1fr; gap: 36px; } .access .book { width: 52%; } }
+  :root { --green: #2F4A3A; --green-2: #24382C; --hot: #E0482A; --ink: #1F2620; --body: #333; --canvas: #FAF7F2; --linen: #F2ECE2; --hair: #E3D9C7; --sage: #E6EEE6; --yellow: #FFF7D6; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--canvas); color: var(--body); font: 400 20px/1.55 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-text-size-adjust: 100%; }
+  img { max-width: 100%; height: auto; display: block; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 18px; }
+  h1, h2 { font-family: Lora, Georgia, serif; color: var(--green); margin: 0; line-height: 1.15; }
+  h1 { font-size: clamp(32px, 7vw, 46px); font-weight: 600; }
+  h2 { font-size: clamp(25px, 5.5vw, 32px); font-weight: 600; }
+  .top { background: var(--green); color: #fff; text-align: center; padding: 36px 0 34px; }
+  .ok { width: 84px; height: 84px; border-radius: 50%; background: #fff; color: var(--green); display: grid; place-items: center; margin: 0 auto 18px; font: 800 48px/1 Inter, sans-serif; }
+  .top h1 { color: #fff; }
+  .top p { margin: 12px auto 0; font-size: 21px; max-width: 30em; color: #E5ECE5; }
+  .steps-mini { background: var(--yellow); border-bottom: 1px solid #EAD9A0; padding: 18px 0; text-align: center; font-size: 19px; color: var(--ink); }
+  .steps-mini b { color: var(--hot); }
+  main { padding: 28px 0 10px; }
+  .book { display: grid; grid-template-columns: 150px 1fr; gap: 22px; align-items: center; background: #fff; border: 2px solid var(--hair); border-radius: 14px; padding: 22px; margin-bottom: 22px; }
+  .book img { border-radius: 4px; box-shadow: 0 12px 24px -12px rgba(0,0,0,.45); }
+  .num { display: inline-block; font: 800 15px/1 Inter, sans-serif; letter-spacing: .06em; text-transform: uppercase; color: #fff; background: var(--green); padding: 8px 12px; border-radius: 40px; margin-bottom: 10px; }
+  .num.gift { background: var(--hot); }
+  .book h2 { margin-bottom: 6px; }
+  .meta { font-size: 16px; color: #6D6A60; margin: 0 0 16px; }
+  .btn { display: flex; align-items: center; justify-content: center; gap: 12px; width: 100%; min-height: 72px; padding: 18px 20px; border-radius: 12px; background: var(--hot); color: #fff; text-decoration: none; font: 800 22px/1.2 Inter, sans-serif; text-align: center; box-shadow: 0 10px 22px -10px rgba(224,72,42,.8); }
+  .btn:active { transform: translateY(1px); }
+  .btn:focus-visible { outline: 4px solid var(--green); outline-offset: 3px; }
+  .btn svg { width: 30px; height: 30px; flex: none; }
+  .note { margin: 6px 0 26px; padding: 18px 20px; background: var(--sage); border-radius: 12px; font-size: 19px; color: var(--ink); }
+  .note b { color: var(--green); }
+  .help { background: #fff; border: 2px solid var(--hair); border-radius: 14px; padding: 24px 22px; margin-bottom: 22px; }
+  .help h2 { margin-bottom: 14px; }
+  .help h3 { font: 700 20px/1.3 Inter, sans-serif; color: var(--ink); margin: 18px 0 8px; }
+  .help ol { margin: 0; padding: 0; list-style: none; counter-reset: s; }
+  .help li { counter-increment: s; display: grid; grid-template-columns: 40px 1fr; gap: 10px; padding: 9px 0; font-size: 19px; }
+  .help li::before { content: counter(s); width: 34px; height: 34px; border-radius: 50%; background: var(--green); color: #fff; display: grid; place-items: center; font: 700 17px/1 Inter, sans-serif; }
+  .support { text-align: center; padding: 8px 0 30px; font-size: 19px; }
+  .support b { color: var(--green); }
+  footer { background: var(--green-2); color: #9FB0A3; font-size: 14px; padding: 24px 0 32px; }
+  @media (max-width: 560px) {
+    body { font-size: 19px; }
+    .book { grid-template-columns: 1fr; text-align: center; }
+    .book img { width: 46%; margin: 0 auto 4px; }
+    .btn { font-size: 21px; }
+  }
 </style>
 </head>
 <body>
-<header class="nav">
-  <div class="wrap nav-in">
-    <span class="brand">
-      <svg class="sprig" viewBox="0 0 24 40" aria-hidden="true"><path d="M12 39V2M12 9c-4-1-7-4-7-7 4 0 7 3 7 7zm0 8c4-1 7-4 7-7-4 0-7 3-7 7zm0 8c-4-1-7-4-7-7 4 0 7 3 7 7zm0 8c4-1 7-4 7-7-4 0-7 3-7 7z"/></svg>
-      <span><b>50</b> Receitas Naturais</span>
-    </span>
+
+<section class="top">
+  <div class="wrap">
+    <div class="ok" aria-hidden="true">✓</div>
+    <h1>Pagamento confirmado! Seus 2 livros estão aqui.</h1>
+    <p>Obrigado pela compra. É só tocar nos botões laranja abaixo para abrir e baixar cada livro.</p>
   </div>
-</header>
+</section>
+
+<div class="steps-mini"><div class="wrap">Toque no botão <b>BAIXAR LIVRO 1</b>. Depois volte aqui e toque em <b>BAIXAR LIVRO 2</b>.</div></div>
 
 <main>
-<section class="access">
-  <div class="wrap access-in">
-    <div class="book" aria-hidden="true"><img src="../img/pages/cover.jpg" alt="" width="760" height="1075"></div>
-    <div>
-      <span class="ok">Pagamento confirmado</span>
-      <h1>Obrigado! Seu livro <em>está aqui.</em></h1>
-      <p class="lede">Toque no botão abaixo para baixar o <b>50 Receitas Naturais que Funcionam de Verdade</b>. O arquivo é seu para sempre — salve no celular ou no computador.</p>
-      <div class="dl">
-        <a class="btn btn-lg" href="50-Receitas-Naturais-que-Funcionam-de-Verdade.pdf" download>Baixar o ebook (PDF) <span aria-hidden="true">↓</span></a>
-      </div>
-      <p class="dl-meta">PDF · 68 páginas · 12 MB</p>
-      <ol class="tips"><li data-n="01"><div><b>Salve esta página nos favoritos</b>Você também recebe este link no seu e-mail para baixar de novo quando quiser.</div></li><li data-n="02"><div><b>No iPhone</b>Abra o PDF, toque em compartilhar e escolha “Salvar em Arquivos” ou “Livros”.</div></li><li data-n="03"><div><b>No Android</b>O arquivo vai para a pasta Downloads. Abra com o leitor de PDF ou o Google Drive.</div></li><li data-n="04"><div><b>Precisa de ajuda?</b>Responda o e-mail de confirmação da compra que a gente te ajuda.</div></li></ol>
-    </div>
-  </div>
-</section>
-
-<section class="start">
   <div class="wrap">
-    <div class="sec-head">
-      <p class="label">Por onde começar</p>
-      <h2>Comece pelo capítulo que fala com você</h2>
-      <p class="sub">Escolha uma receita e faça por 2 a 4 semanas antes de decidir se ajudou.</p>
-    </div>
-    <div class="chapters"><div class="chapter"><div class="chapter-img"><img src="../img/r/A9.jpg" alt="" loading="lazy" width="560" height="695"></div><div class="chapter-body"><span class="chapter-num">01</span><h3>Açúcar no Sangue</h3><p>Receitas e bebidas para suavizar os picos de glicose</p><span class="count">7 receitas</span></div></div><div class="chapter"><div class="chapter-img"><img src="../img/r/B1.jpg" alt="" loading="lazy" width="560" height="695"></div><div class="chapter-body"><span class="chapter-num">02</span><h3>Vontade de Doce</h3><p>Sobremesas sem açúcar refinado que dão certo</p><span class="count">10 receitas</span></div></div><div class="chapter"><div class="chapter-img"><img src="../img/r/C1.jpg" alt="" loading="lazy" width="560" height="695"></div><div class="chapter-body"><span class="chapter-num">03</span><h3>Pães sem Farinha de Trigo</h3><p>Pães, wraps e massas feitos com outros ingredientes</p><span class="count">8 receitas</span></div></div><div class="chapter"><div class="chapter-img"><img src="../img/r/D2.jpg" alt="" loading="lazy" width="560" height="695"></div><div class="chapter-body"><span class="chapter-num">04</span><h3>Intestino e Barriga Inchada</h3><p>Para o intestino preso e para a sua microbiota</p><span class="count">5 receitas</span></div></div><div class="chapter"><div class="chapter-img"><img src="../img/r/E5.jpg" alt="" loading="lazy" width="560" height="695"></div><div class="chapter-body"><span class="chapter-num">05</span><h3>Sono, Estresse e Cortisol</h3><p>Rituais e lanches para desacelerar no fim do dia</p><span class="count">6 receitas</span></div></div><div class="chapter"><div class="chapter-img"><img src="../img/r/F1.jpg" alt="" loading="lazy" width="560" height="695"></div><div class="chapter-body"><span class="chapter-num">06</span><h3>Inflamação e Articulações</h3><p>Gengibre, cúrcuma e ômega-3 no prato e no copo</p><span class="count">4 receitas</span></div></div><div class="chapter"><div class="chapter-img"><img src="../img/r/G2.jpg" alt="" loading="lazy" width="560" height="695"></div><div class="chapter-body"><span class="chapter-num">07</span><h3>Retenção de Líquido e Pressão</h3><p>Menos sódio, mais potássio e chás da tradição</p><span class="count">4 receitas</span></div></div><div class="chapter"><div class="chapter-img"><img src="../img/r/H4.jpg" alt="" loading="lazy" width="560" height="695"></div><div class="chapter-body"><span class="chapter-num">08</span><h3>Músculos e Ossos</h3><p>Proteína e cálcio para envelhecer forte</p><span class="count">6 receitas</span></div></div></div>
+    <article class="book">
+      <img src="../img/pages/cover.jpg" alt="" width="760" height="1018">
+      <div>
+        <span class="num">Livro 1</span>
+        <h2>50 Receitas Naturais que Funcionam de Verdade</h2>
+        <p class="meta">PDF · 68 páginas</p>
+        <a class="btn" href="50-Receitas-Naturais-que-Funcionam-de-Verdade.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M6 11l6 6 6-6M4 21h16"/></svg>
+          BAIXAR LIVRO 1
+        </a>
+      </div>
+    </article>
+
+    <article class="book">
+      <img src="../img/pages/cover150.jpg" alt="" width="760" height="1075">
+      <div>
+        <span class="num gift">Livro 2 · Bônus</span>
+        <h2>150 Soluções Naturais que Funcionam de Verdade</h2>
+        <p class="meta">PDF · 262 páginas · pode levar alguns segundos para abrir</p>
+        <a class="btn" href="150-Solucoes-Naturais-que-Funcionam-de-Verdade.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M6 11l6 6 6-6M4 21h16"/></svg>
+          BAIXAR LIVRO 2
+        </a>
+      </div>
+    </article>
+
+    <p class="note">📩 <b>Também mandamos este link para o seu e-mail.</b> Se não encontrar, olhe na pasta <b>Spam</b> ou <b>Promoções</b>. O link funciona para sempre: pode baixar de novo quando quiser.</p>
+
+    <section class="help">
+      <h2>Precisa de ajuda para abrir?</h2>
+      <h3>No celular Android</h3>
+      <ol><li><span>Toque no botão laranja do livro.</span></li><li><span>O livro abre na tela. Se aparecer “Baixar” ou a setinha ↓, toque nela.</span></li><li><span>Para ler depois: abra o aplicativo <b>Arquivos</b> (ou <b>Downloads</b>) e toque no livro.</span></li></ol>
+      <h3>No iPhone</h3>
+      <ol><li><span>Toque no botão laranja do livro.</span></li><li><span>O livro abre na tela. Toque no quadrado com a setinha para cima (Compartilhar).</span></li><li><span>Escolha <b>Livros</b> ou <b>Salvar em Arquivos</b>. Pronto: ele fica guardado no seu iPhone.</span></li></ol>
+      <h3>No computador</h3>
+      <ol><li><span>Clique no botão laranja do livro.</span></li><li><span>O livro abre numa nova aba. Clique na setinha ↓ no canto de cima para salvar.</span></li></ol>
+    </section>
+
+    <p class="support">Ficou com alguma dúvida? <b>Responda o e-mail da compra</b> que a gente te ajuda.</p>
   </div>
-</section>
 </main>
 
-<footer class="footer" style="padding-bottom:48px">
-  <div class="wrap">
-    <p class="footer-title">50 Receitas Naturais que Funcionam de Verdade</p>
-    <p class="disclaimer">Este conteúdo tem finalidade educativa. Não é orientação médica e não substitui diagnóstico nem tratamento feito por profissional de saúde. Converse com seu médico ou nutricionista antes de mudar a alimentação, principalmente se você tem diabetes, pressão alta, doença renal, está grávida, amamentando ou usa remédios de uso contínuo. Os resultados variam de pessoa para pessoa. Em caso de emergência, ligue 192 (SAMU).</p>
-    <p class="small">© 2026 · Todos os direitos reservados · As fotos são ilustrativas e foram criadas com ferramentas de imagem por IA.</p>
-  </div>
-</footer>
+<footer><div class="wrap">Este conteúdo tem finalidade educativa. Não é orientação médica e não substitui diagnóstico nem tratamento feito por profissional de saúde. Não pare nem altere nenhum remédio por conta própria. Converse com seu médico antes de usar remédios naturais, principalmente se você tem diabetes, pressão alta, doença renal, está grávida, amamentando ou usa remédios de uso contínuo. Os resultados variam de pessoa para pessoa. Em caso de emergência, ligue 192 (SAMU).</div></footer>
 </body>
 </html>

@@ -19,17 +19,17 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
 
 const CFG = {
-  "book": "50 Receitas Naturais que Funcionam de Verdade",
+  "book": "Kit 50 Receitas Naturais + 150 Soluções Naturais",
   "currency": "brl",
   "accessPath": "/acesso-tiohk45cmr/",
   "email": {
-    "subject": "Seu ebook chegou: 50 Receitas Naturais que Funcionam de Verdade",
+    "subject": "Seus 2 livros chegaram: 50 Receitas Naturais + 150 Soluções Naturais",
     "hello": "Olá",
-    "body": "Obrigado pela compra! Seu livro já está liberado. Toque no botão abaixo para abrir a página de download e baixar o PDF.",
-    "button": "Baixar meu ebook",
+    "body": "Obrigado pela compra! Seus 2 livros já estão liberados: 50 Receitas Naturais que Funcionam de Verdade e o bônus 150 Soluções Naturais que Funcionam de Verdade. Toque no botão abaixo para abrir a página de download.",
+    "button": "Baixar meus 2 livros",
     "fallback": "Se o botão não funcionar, copie e cole este link no navegador:",
     "footer": "Guarde este e-mail: o link funciona sempre que você quiser baixar de novo. Qualquer dúvida, é só responder esta mensagem.",
-    "legal": "Você recebeu este e-mail porque comprou o ebook. Conteúdo educativo; não substitui orientação médica."
+    "legal": "Você recebeu este e-mail porque comprou os livros. Conteúdo educativo; não substitui orientação médica."
   }
 };
 
