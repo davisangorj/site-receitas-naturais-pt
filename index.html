@@ -46,8 +46,10 @@
       <p class="pill-alert bonus-only">🎁 Especial para quem chegou pelo vídeo</p>
       <p class="pill-alert expired-only">🔥 Oferta especial: livro completo por R$ 19,90</p>
       <h1><span class="bonus-only">200 receitas e remédios naturais para a <mark>barriga inchada, as dores, o sono e a glicose</mark> — por menos de 10 centavos cada.</span><span class="expired-only">50 receitas naturais para a <mark>glicose, a vontade de doce, o intestino e o sono</mark> — por menos de 40 centavos cada.</span></h1>
-      <p class="lede bonus-only">Os remédios caseiros que a sua avó usava, agora com medidas exatas e com o que a ciência diz sobre cada um. Tudo com ingredientes que você já tem em casa ou acha no mercado.</p>
-      <p class="lede expired-only">Doces sem açúcar refinado, pães sem trigo e bebidas com medidas exatas e com o que a ciência diz sobre cada receita. Tudo com ingredientes de mercado.</p>
+      <div class="vsl">
+        <video id="vsl" src="img/vsl.mp4" poster="img/vsl-poster.jpg" width="720" height="900" playsinline muted autoplay loop preload="metadata" aria-label="Vídeo: a Carla explica o kit"></video>
+        <button class="vsl-sound" type="button">🔊 Toque para ouvir</button>
+      </div>
       <div class="hero-box">
         <div class="hb-price">
           <span class="price-old">R$ 99,90</span>
@@ -61,13 +63,16 @@
           <span>⏳ Seu bônus expira em:</span>
           <span class="timer" data-timer><span class="h-part"><b data-h>00</b><small>h</small></span><span><b data-m>45</b><small>min</small></span><span><b data-s>00</b><small>seg</small></span></span>
         </div>
-        <ul class="trust"><li>Acesso imediato por e-mail</li><li>Pagamento único, sem assinatura</li><li>Garantia de 7 dias</li></ul>
+        <p class="hb-guar"><span class="g-mini" aria-hidden="true">7<small>dias</small></span><span><b>Garantia de 7 dias:</b> se não gostar, devolvemos 100% do seu dinheiro. Sem perguntas.</span></p>
+        <ul class="trust trust-hero"><li>🔒 Pagamento seguro</li><li>📩 Acesso imediato no e-mail</li><li>📱 Leia no celular</li></ul>
       </div>
+      <p class="lede bonus-only">Os remédios caseiros que a sua avó usava, agora com medidas exatas e com o que a ciência diz sobre cada um. Tudo com ingredientes que você já tem em casa ou acha no mercado.</p>
+      <p class="lede expired-only">Doces sem açúcar refinado, pães sem trigo e bebidas com medidas exatas e com o que a ciência diz sobre cada receita. Tudo com ingredientes de mercado.</p>
     </div>
-    <div class="hero-visual duo" aria-hidden="true">
-      <div class="book b-main"><img src="img/pages/cover.jpg" alt="" width="760" height="1075" fetchpriority="high"></div>
-      <div class="book b-bonus bonus-only"><img src="img/pages/cover150.jpg" alt="" width="760" height="1075"></div>
-      <div class="sticker bonus-only"><b>+150</b><span>remédios de bônus</span></div>
+    <div class="hero-visual autora">
+      <img class="bonus-only" src="img/autora.jpg" alt="Carla segurando os dois livros" width="800" height="800" loading="lazy">
+      <div class="book b-main expired-only" aria-hidden="true"><img src="img/pages/cover.jpg" alt="" width="760" height="1075" loading="lazy"></div>
+      <div class="sticker bonus-only" aria-hidden="true"><b>+150</b><span>remédios de bônus</span></div>
     </div>
   </div>
 </section>
