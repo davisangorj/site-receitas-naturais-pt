@@ -32,6 +32,7 @@ const CFG = {
     "legal": "Você recebeu este e-mail porque comprou os livros. Conteúdo educativo; não substitui orientação médica."
   },
   "paymentLinks": [
+    "plink_1UPLSzHqUD5XCcEnV2aOSN9x",
     "plink_1UN49ZHqUD5XCcEnlFsUpli9",
     "plink_1UM24rHqUD5XCcEnQy1oQU0w"
   ]
