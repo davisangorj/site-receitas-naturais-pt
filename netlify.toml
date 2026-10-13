@@ -8,3 +8,10 @@
   [headers.values]
     X-Robots-Tag = "noindex, nofollow"
     Cache-Control = "private, max-age=0"
+
+# endereço antigo .netlify.app -> domínio próprio
+[[redirects]]
+  from = "https://carlareceitasnaturais.netlify.app/*"
+  to = "https://carlareceitasnaturais.com/:splat"
+  status = 301
+  force = true
