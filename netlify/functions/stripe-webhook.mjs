@@ -19,13 +19,13 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
 
 const CFG = {
-  "book": "Kit 50 Receitas Naturais + 150 Soluções Naturais",
+  "book": "Kit 100 Receitas Naturais + 150 Soluções Naturais",
   "currency": "brl",
   "accessPath": "/acesso-tiohk45cmr/",
   "email": {
-    "subject": "Seus 2 livros chegaram: 50 Receitas Naturais + 150 Soluções Naturais",
+    "subject": "Seus 2 livros chegaram: 100 Receitas Naturais + 150 Soluções Naturais",
     "hello": "Olá",
-    "body": "Obrigado pela compra! Seus 2 livros já estão liberados: 50 Receitas Naturais que Funcionam de Verdade e o bônus 150 Soluções Naturais que Funcionam de Verdade. Toque no botão abaixo para abrir a página de download.",
+    "body": "Obrigado pela compra! Seus 2 livros já estão liberados: 100 Receitas Naturais que Funcionam de Verdade e o bônus 150 Soluções Naturais que Funcionam de Verdade. Toque no botão abaixo para abrir a página de download.",
     "button": "Baixar meus 2 livros",
     "fallback": "Se o botão não funcionar, copie e cole este link no navegador:",
     "footer": "Guarde este e-mail: o link funciona sempre que você quiser baixar de novo. Qualquer dúvida, é só responder esta mensagem.",
